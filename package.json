@@ -1,0 +1,43 @@
+{
+  "name": "source-book",
+  "version": "0.0.1",
+  "description": "source-book",
+  "license": "MIT",
+  "repository": "",
+  "author": "Catalin",
+  "keywords": [
+    ""
+  ],
+  "files": [
+    "exe"
+  ],
+  "main": "./exe/lib/index.js",
+  "typings": "./exe/lib/index.d.ts",
+  "scripts": {
+    "test": "gulp test",
+    "performance": "node --allow-natives-syntax --prof ./node_modules/mocha/bin/_mocha ./exe/**/*.spec.js"
+  },
+  "dependencies": {
+    "commander": "^2.13.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.0.8",
+    "@types/mocha": "^2.2.44",
+    "@types/node": "^8.0.57",
+    "@types/sinon": "^4.1.0",
+    "chai": "^4.1.2",
+    "del": "^3.0.0",
+    "dotbin": "^1.0.1",
+    "gulp": "^3.9.1",
+    "gulp-help": "^1.6.1",
+    "gulp-mocha": "^4.3.1",
+    "gulp-tslint": "^8.1.2",
+    "merge2": "^1.2.0",
+    "source-map-support": "^0.5.3",
+    "tslint": "^5.8.0",
+    "typescript": "^2.6.2"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  }
+}
