@@ -10,3 +10,4 @@ obj/
 bin/
 logs/
 logger-config.js
+out/
