@@ -5,7 +5,7 @@ import 'mocha';
 // to test only test 'y' in suite 'x':
 // const testToDebug = 'x y';
 // ex:
-const testToDebug: string = 'Scanner';
+const testToDebug: string = 't2';
 
 beforeEach(function () {
     // tslint:disable-next-line:no-this-assignment

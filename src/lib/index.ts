@@ -1,3 +1,7 @@
 export {
     Scanner, ScannerOptions,
-} from './scan/scanner';
+} from './scanner';
+
+export {
+    CopyRoot,
+} from './copy-root';

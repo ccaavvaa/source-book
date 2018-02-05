@@ -18,7 +18,9 @@
     "performance": "node --allow-natives-syntax --prof ./node_modules/mocha/bin/_mocha ./exe/**/*.spec.js"
   },
   "dependencies": {
+    "@types/fs-extra": "^5.0.0",
     "commander": "^2.13.0",
+    "fs-extra": "^5.0.0",
     "glob": "^7.1.2",
     "lodash": "^4.17.5"
   },
